@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>Crystal Collector Game!</h1>
+
+    <div class="instructions">
+
+        <p>You will be given random numbers at the start of the game.</p>
+        <p>There are four crystals below, by clicking you will add specific amount to your number.</p>
+        <p>You win the game by matching the numbers required.</p>
+        <p>The value of crystals is hidden from you.</p>
+        <p>Each time the game starts the value of crystal will change.</p>
+    </div>
+
+    <div id="rand"></div>
+    <div id="winlose">
+        Wins: <span id="wins"></span> <br>
+        Loses: <span id="loses"></span>
+    </div>
+
+    <div id="imgcontainer">
+        
+        <img src="assets/images/gem1.jpg" id="gem1" class="gembtn">
+        <img src="assets/images/gem2.jpg" id="gem2" class="gembtn">
+        <img src="assets/images/gem3.jpg" id="gem3" class="gembtn">
+        <img src="assets/images/gem4.jpg" id="gem4" class="gembtn">
+
+    </div>
+
+    <div id="yourscore">Your Score:</div>
+    <div id="score"></div>
+
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
